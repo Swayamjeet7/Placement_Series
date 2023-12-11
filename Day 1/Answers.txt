@@ -1,0 +1,16 @@
+1. (d) 455
+
+2. (a) will ripen
+
+3. (c) 441
+
+4. (d) 15
+
+5.
+ph = float(input('Enter a pH value: '))
+if ph < 7.0:
+	print('Acidic')
+elif ph > 7.0:
+	print('Alkaline')
+elif ph == 7.0:
+	print('Neutral')
