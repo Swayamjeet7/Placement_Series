@@ -1,0 +1,9 @@
+1. The cloud computing service models are Software as a Service (SaaS), Infrastructure as a Service (IaaS) and Platform as a Service (PaaS).
+
+2. 2/33
+
+3. C.10206
+
+4. A.19
+
+5. C.648
