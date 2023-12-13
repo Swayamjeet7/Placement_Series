@@ -1,0 +1,11 @@
+1. A. 23%
+
+2. C. Printer
+
+3. D. inevitable,standards,imperatives
+
+4.
+for i in range(0,4):
+	print(8 * '*')
+
+5. B. 10,7
