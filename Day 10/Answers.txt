@@ -1,0 +1,42 @@
+1. B. 35%
+
+2. D
+
+3. C. 80
+
+5.
+vowellist = ['a','e','i','o','u','A','E','I','O','U']
+word = input()
+vowelno = 0
+consonantno = 0
+for char in word:
+    if char in vowellist:
+        vowelno += 1
+    else:
+        consonantno += 1
+
+print(f'The word has {vowelno} of vowels and {consonantno} of consonants')
+
+
+6. Two strings will be Anagrams of each other if they have same letters. So we check the letters and their repeatitions in the two strings. The code is given by:
+
+word1 = input()
+dict1 = {}
+for char in word1:
+    count = word1.count(char)
+    dict1[char] = count
+
+print(dict1)
+
+word2 = input()
+dict2 = {}
+for char in word2:
+    count = word2.count(char)
+    dict2[char] = count
+
+print(dict2)
+
+if dict1 == dict2:
+    print('Two Strings Are Anagrams of Each Other')
+else:
+    print('Two Strings Are Not Anagrams of Each Other')   
