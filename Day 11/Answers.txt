@@ -1,0 +1,28 @@
+1. B. 32
+
+2. C. HCL Technologies
+
+3. (question and answer doesn't match)
+
+4. B. Prints : Jan is the first month
+
+5. 
+a = int(input())
+b = int(input())
+if a>b:
+	c = int(a/b)
+elif b>a:
+	c = int(b/a)
+print(c)
+
+6.
+#include <graphics.h> 
+int main() 
+{ 
+    int gd = DETECT, gm; 
+    initgraph(&gd, &gm, ""); 
+    circle(0, 0, 10); 
+    getch(); 
+    closegraph(); 
+    return 0; 
+} 
